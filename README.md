@@ -299,5 +299,6 @@ A larger $D$ indicates greater divergence between the two distributions.
 - **Academic Year:** 2026-27
 - **Course / Assessment:** ISE-2 Machine Learning & MLOps
 - **Topic:** MLflow Experiment Tracking & Data Drift Analysis
-- **GitHub Repository URL:** `[To be added upon repository push]`
+- **GitHub Repository URL:** [https://github.com/Tanish-19/iris-mlflow-drift](https://github.com/Tanish-19/iris-mlflow-drift)
+
 

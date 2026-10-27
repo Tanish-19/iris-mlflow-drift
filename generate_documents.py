@@ -386,9 +386,9 @@ def create_docx(output_path: str = "ISE2_MLFLOW_DOCUMENTATION.docx"):
 
     doc.add_heading("5.1 GitHub Repository URL", level=2)
     doc.add_paragraph(
-        "• GitHub Repository URL: [To be added upon repository push]\n"
+        "• GitHub Repository URL: https://github.com/Tanish-19/iris-mlflow-drift\n"
         "• Local Repository Root: /Users/tanishpatgaonkar/.gemini/antigravity-ide/scratch/iris-mlflow-drift\n"
-        "• Configured Branch: main (Git repository initialized, clean local commits, ready for GitHub remote addition)."
+        "• Configured Branch: main (Git repository initialized, clean local commits, synced with remote origin)."
     )
 
     doc.add_heading("5.2 Source Code and Project Inventory", level=2)
@@ -646,7 +646,7 @@ def create_pdf(output_path: str = "ISE2_MLFLOW_DOCUMENTATION.pdf"):
     story.append(HRFlowable(width="100%", thickness=1.5, color=c_primary, spaceBefore=2, spaceAfter=8))
     
     sec5_pts = [
-        "<b>GitHub Repository URL:</b> [To be added upon repository push]",
+        "<b>GitHub Repository URL:</b> https://github.com/Tanish-19/iris-mlflow-drift",
         "<b>Local Repository Root:</b> <code>/Users/tanishpatgaonkar/.gemini/antigravity-ide/scratch/iris-mlflow-drift</code> (Branch: <code>main</code>)",
         "<b>Execution Sequence:</b> <code>python src/data_loader.py</code> -> <code>python src/train.py</code> -> <code>python src/drift_detection.py</code> -> <code>pytest tests/test_project.py -v</code>.",
         "<b>Automated Pytest Results:</b> <b>9/9 tests passed (100%)</b> validating dataset shape, training, prediction metrics, and KS drift assertions.",

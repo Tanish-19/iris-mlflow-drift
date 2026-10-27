@@ -216,9 +216,9 @@ The automated drift detection pipeline was executed using `src/drift_detection.p
 ## Section 5: GitHub Repository and Reproducibility
 
 ### 5.1 GitHub Repository URL
-- **GitHub Repository URL:** `[To be added upon repository push]`
+- **GitHub Repository URL:** `https://github.com/Tanish-19/iris-mlflow-drift`
 - **Local Repository Root:** `/Users/tanishpatgaonkar/.gemini/antigravity-ide/scratch/iris-mlflow-drift`
-- **Configured Branch:** `main` (Git repository initialized, clean local commits, ready for GitHub remote addition).
+- **Configured Branch:** `main` (Git repository initialized, clean local commits, synced with remote origin).
 
 ---
 
