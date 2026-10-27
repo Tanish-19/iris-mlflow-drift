@@ -1,0 +1,11 @@
+=== CLASSIFICATION REPORT FOR RUN: Run_2_High_Regularization_C0.1 ===
+
+              precision    recall  f1-score   support
+
+      setosa       1.00      1.00      1.00        10
+  versicolor       0.88      0.70      0.78        10
+   virginica       0.75      0.90      0.82        10
+
+    accuracy                           0.87        30
+   macro avg       0.88      0.87      0.87        30
+weighted avg       0.88      0.87      0.87        30

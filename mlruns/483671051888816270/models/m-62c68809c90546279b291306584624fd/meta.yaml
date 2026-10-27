@@ -1,0 +1,10 @@
+artifact_location: file:///Users/tanishpatgaonkar/.gemini/antigravity-ide/scratch/iris-mlflow-drift/mlruns/models/m-62c68809c90546279b291306584624fd/artifacts
+creation_timestamp: 1793118245179
+experiment_id: '483671051888816270'
+last_updated_timestamp: 1793118256000
+model_id: m-62c68809c90546279b291306584624fd
+model_type: null
+name: iris_model
+source_run_id: 0c10d1d8776344acbdf54020bd3347aa
+status: 2
+status_message: null

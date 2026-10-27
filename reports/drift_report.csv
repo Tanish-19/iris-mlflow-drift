@@ -1,0 +1,5 @@
+feature,ks_statistic,p_value,alpha_threshold,drift_detected,drift_status,ref_mean,curr_mean,ref_std,curr_std,mean_shift
+sepal_length,0.3733,1.0722e-09,0.05,True,Drift Detected,5.843,6.681,0.825,0.851,0.837
+sepal_width,0.1,0.4425,0.05,False,No Significant Drift,3.057,3.069,0.434,0.433,0.012
+petal_length,0.4067,1.7712e-11,0.05,True,Drift Detected,3.758,5.172,1.759,1.76,1.414
+petal_width,0.1333,0.1391,0.05,False,No Significant Drift,1.199,1.188,0.76,0.76,-0.012

@@ -1,0 +1,23 @@
+artifact_path: file:///Users/tanishpatgaonkar/.gemini/antigravity-ide/scratch/iris-mlflow-drift/mlruns/models/m-2f34055314554b9e9247874fde0a0df6/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.13.5
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types: null
+mlflow_version: 3.17.2
+model_id: m-2f34055314554b9e9247874fde0a0df6
+model_size_bytes: 25903
+model_uuid: m-2f34055314554b9e9247874fde0a0df6
+prompts: null
+run_id: 4e4f60a28b30444dbf95637ecdd946b8
+utc_time_created: '2026-10-27 16:24:16.338222'

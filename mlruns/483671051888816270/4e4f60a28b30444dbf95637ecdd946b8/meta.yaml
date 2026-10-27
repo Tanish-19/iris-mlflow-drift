@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/tanishpatgaonkar/.gemini/antigravity-ide/scratch/iris-mlflow-drift/mlruns/4e4f60a28b30444dbf95637ecdd946b8/artifacts
+end_time: 1793118259467
+entry_point_name: ''
+experiment_id: '483671051888816270'
+lifecycle_stage: active
+run_id: 4e4f60a28b30444dbf95637ecdd946b8
+run_name: Run_2_High_Regularization_C0.1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1793118256005
+status: 3
+tags: []
+user_id: tanishpatgaonkar

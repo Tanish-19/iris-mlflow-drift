@@ -1,0 +1,27 @@
+{
+    "dataset_name": "Iris Flower Dataset",
+    "source": "Scikit-learn built-in (Fisher, 1936)",
+    "total_records": 150,
+    "feature_count": 4,
+    "features": [
+        "sepal_length",
+        "sepal_width",
+        "petal_length",
+        "petal_width"
+    ],
+    "target_variable": "species",
+    "target_classes": [
+        "setosa",
+        "versicolor",
+        "virginica"
+    ],
+    "class_counts": {
+        "0": 50,
+        "1": 50,
+        "2": 50
+    },
+    "missing_values": 0,
+    "use_case": "Multiclass Machine Learning Classification",
+    "train_samples": 120,
+    "test_samples": 30
+}

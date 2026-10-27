@@ -1,0 +1,4 @@
+run_id,run_name,regularization_C,max_iterations,solver,accuracy,precision,recall,f1_score,train_accuracy
+0c10d1d8776344acbdf54020bd3347aa,Run_1_Baseline_C1.0,1.0,200,lbfgs,0.9333,0.9333,0.9333,0.9333,0.9583
+4e4f60a28b30444dbf95637ecdd946b8,Run_2_High_Regularization_C0.1,0.1,100,lbfgs,0.8667,0.875,0.8667,0.8653,0.9333
+9e20c1aa03024d5ca849bb88a59c821f,Run_3_Low_Regularization_C10.0,10.0,300,lbfgs,1.0,1.0,1.0,1.0,0.975

@@ -1,0 +1,9 @@
+artifact_location: file:///Users/tanishpatgaonkar/.gemini/antigravity-ide/scratch/iris-mlflow-drift/mlruns
+creation_time: 1793118243750
+effective_trace_archival_retention: null
+experiment_id: '483671051888816270'
+last_update_time: 1793118243750
+lifecycle_stage: active
+name: Iris_Classification_Experiment
+trace_location: null
+workspace: default
