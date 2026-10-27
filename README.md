@@ -215,10 +215,10 @@ To simulate realistic real-world covariate shift in an academic setting:
 
 | Feature | KS Statistic ($D$) | $p$-value | Significance Threshold ($\alpha$) | Ref Mean ($\mu_{ref}$) | Curr Mean ($\mu_{curr}$) | Mean Shift ($\Delta\mu$) | Drift Status |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **`sepal_length`** | **0.3733** | **$1.0722 \times 10^{-9}$** | 0.05 | 5.843 cm | 6.697 cm | +0.853 cm | 🚨 **Drift Detected** |
-| **`sepal_width`** | 0.1000 | 0.4425 | 0.05 | 3.057 cm | 3.071 cm | +0.014 cm | ✅ **No Significant Drift** |
-| **`petal_length`** | **0.4067** | **$1.7712 \times 10^{-11}$** | 0.05 | 3.758 cm | 5.163 cm | +1.405 cm | 🚨 **Drift Detected** |
-| **`petal_width`** | 0.1333 | 0.1391 | 0.05 | 1.199 cm | 1.189 cm | -0.010 cm | ✅ **No Significant Drift** |
+| **`sepal_length`** | **0.3733** | **$1.0722 \times 10^{-9}$** | 0.05 | 5.843 cm | 6.681 cm | +0.837 cm | 🚨 **Drift Detected** |
+| **`sepal_width`** | 0.1000 | 0.4425 | 0.05 | 3.057 cm | 3.069 cm | +0.012 cm | ✅ **No Significant Drift** |
+| **`petal_length`** | **0.4067** | **$1.7712 \times 10^{-11}$** | 0.05 | 3.758 cm | 5.172 cm | +1.414 cm | 🚨 **Drift Detected** |
+| **`petal_width`** | 0.1333 | 0.1391 | 0.05 | 1.199 cm | 1.188 cm | -0.012 cm | ✅ **No Significant Drift** |
 
 ### Statistical Test Interpretation
 - For `sepal_length` and `petal_length`, the test statistic $D$ represents a substantial maximum separation between the empirical CDFs ($D > 0.37$). The resulting $p$-values are orders of magnitude below $\alpha = 0.05$, conclusively rejecting $H_0$.
@@ -292,7 +292,12 @@ A larger $D$ indicates greater divergence between the two distributions.
 
 ---
 
-## 👤 Author & Academic Details
-- **Student Name:** College ISE-2 Candidate
+## 👤 Student & Academic Details
+- **Student Name:** Tanish Patgaonkar
+- **Roll Number:** 42
+- **PRN:** 2324000399
+- **Academic Year:** 2026-27
 - **Course / Assessment:** ISE-2 Machine Learning & MLOps
 - **Topic:** MLflow Experiment Tracking & Data Drift Analysis
+- **GitHub Repository URL:** `[To be added upon repository push]`
+

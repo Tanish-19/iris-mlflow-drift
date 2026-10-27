@@ -2,6 +2,12 @@
 ## Course Assessment: Machine Learning & MLOps (Theory-ISE2-MLFlow Data Analysis)
 ## Title: Iris Flower Classification: MLflow Experiment Tracking and Kolmogorov-Smirnov Data Drift Analysis
 
+### Student Details
+- **Student Name:** Tanish Patgaonkar
+- **Roll Number:** 42
+- **PRN:** 2324000399
+- **Academic Year:** 2026-27
+
 ---
 
 ## Section 1: MLflow Installation and Experiment Tracking
@@ -168,10 +174,10 @@ The automated drift detection pipeline was executed using `src/drift_detection.p
 
 | Feature Name | KS Statistic ($D$) | $p$-value | Alpha ($\alpha$) | Ref Mean ($\mu_{\text{ref}}$) | Curr Mean ($\mu_{\text{curr}}$) | Mean Shift ($\Delta\mu$) | Statistical Status |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **`sepal_length`** | **0.3733** | **$1.0722 \times 10^{-9}$** | 0.05 | 5.843 cm | 6.697 cm | +0.853 cm | 🚨 **Drift Detected** |
-| **`sepal_width`** | 0.1000 | 0.4425 | 0.05 | 3.057 cm | 3.071 cm | +0.014 cm | ✅ **No Significant Drift** |
-| **`petal_length`** | **0.4067** | **$1.7712 \times 10^{-11}$** | 0.05 | 3.758 cm | 5.163 cm | +1.405 cm | 🚨 **Drift Detected** |
-| **`petal_width`** | 0.1333 | 0.1391 | 0.05 | 1.199 cm | 1.189 cm | -0.010 cm | ✅ **No Significant Drift** |
+| **`sepal_length`** | **0.3733** | **$1.0722 \times 10^{-9}$** | 0.05 | 5.843 cm | 6.681 cm | +0.837 cm | 🚨 **Drift Detected** |
+| **`sepal_width`** | 0.1000 | 0.4425 | 0.05 | 3.057 cm | 3.069 cm | +0.012 cm | ✅ **No Significant Drift** |
+| **`petal_length`** | **0.4067** | **$1.7712 \times 10^{-11}$** | 0.05 | 3.758 cm | 5.172 cm | +1.414 cm | 🚨 **Drift Detected** |
+| **`petal_width`** | 0.1333 | 0.1391 | 0.05 | 1.199 cm | 1.188 cm | -0.012 cm | ✅ **No Significant Drift** |
 
 ---
 
@@ -210,10 +216,9 @@ The automated drift detection pipeline was executed using `src/drift_detection.p
 ## Section 5: GitHub Repository and Reproducibility
 
 ### 5.1 GitHub Repository URL
-
+- **GitHub Repository URL:** `[To be added upon repository push]`
 - **Local Repository Root:** `/Users/tanishpatgaonkar/.gemini/antigravity-ide/scratch/iris-mlflow-drift`
-- **Configured Branch:** `main` (Git repository initialized, clean staging, ready for GitHub remote addition).
-- **GitHub Target URL:** `https://github.com/<username>/iris-mlflow-drift` *(to be linked upon user authorization)*.
+- **Configured Branch:** `main` (Git repository initialized, clean local commits, ready for GitHub remote addition).
 
 ---
 
